@@ -1,6 +1,7 @@
 # Ignore Python virtual environment
 dvc_env/
 data.xml
+data1.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -34,3 +34,19 @@ git commit -m "Initialize DVC"
 mkdir ../dvc-pretend-cloud/dvc-storage
 dvc remote add -d myremote ../dvc-pretend-cloud/dvc-storage
 ```
+
+#### Modifying the data
+- Pretend we got more data (concatenate the dataset to itself)
+
+```
+cp data/data.xml data/data1.xml
+cat data/data1.xml >> data/data.xml
+```
+
+- Add the modified dataset
+
+```
+dvc add data/data.xml
+```
+
+- Run ```git commit``` and ```dvc push``` together usually.
