@@ -22,6 +22,8 @@ dvc init
 5. Commit the ```.dvc``` folder and its contents to Git.
 
 ```
+git add .
 git commit -m "Initialize DVC"
 ```
 
+### Data Versioning
