@@ -27,3 +27,10 @@ git commit -m "Initialize DVC"
 ```
 
 ### Data Versioning
+
+- Set up a local remote for illustration purposes:
+
+```
+mkdir ../dvc-pretend-cloud/dvc-storage
+dvc remote add -d myremote ../dvc-pretend-cloud/dvc-storage
+```
